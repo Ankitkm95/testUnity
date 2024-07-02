@@ -1,0 +1,27 @@
+.parent{
+    display: flex;
+    gap: 7px;
+    flex-wrap: wrap;
+    padding: 10px;
+    border: 1px solid blue;
+}
+
+.parent > a:hover {
+    background-color: lightgray;
+}
+
+.active{
+    background-color: lightgray;
+    border: 1px solid #ccc;
+    padding: 1px 7px;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+.default{
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 1px 7px;
+    border-radius: 7px;
+    text-decoration: none;
+}
